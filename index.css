@@ -503,17 +503,14 @@ canvas {
   transition: all 0.3s ease-in-out;
 }
 .project_img1 {
-  background-image: url("./src/portfolio_img/portfolio1_1.png");
+  background-image: url("./src/portfolio_img/portfolio_ootd1.png");
 }
 /* .project_img1:hover{background-image: url('./src//portfolio_img//portfolio1_2.png')} */
 .project_img2 {
-  background-image: url("./src/portfolio_img/portfolio2_1.png");
+  background-image: url("./src/portfolio_img/portfolio_music1.png");
   order: 2;
 }
-.project_img3 {
-  background-image: url("./src/portfolio_img/portfolio2.gif");
-}
-/* .project_img3{background-image: url('./src/portfolio_img/portfolio2.gif')} */
+
 
 .project_intro {
   margin: 2%;
