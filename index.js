@@ -181,12 +181,12 @@ window.onload = function() {
       "translate3d(" + event.clientX * 0.015 * -1 + "px,0,0)";
     cloud2[0].style.transform =
       "translate3d(" + event.clientX * 0.015 * 1 + "px,0,0)";
-    moon[0].style.transform =
-      "translate3d(" +
-      event.clientX * 0.005 * -1 +
-      "px," +
-      event.clientY * 0.01 * -1 +
-      "px,0)";
+    // moon[0].style.transform =
+      // "translate3d(" +
+      // event.clientX * 0.005 * -1 +
+      // "px," +
+      // event.clientY * 0.01 * -1 +
+      // "px,0)";
   }
 
   function scroll_animation() {
@@ -195,11 +195,11 @@ window.onload = function() {
     var client_height = document.documentElement.clientHeight;
 
     // 달 스크롤
-    if (ie_check == null && scrolltop <= 420) {
-      moon[0].style.top = Math.floor(scrolltop * 1.85 - 280) + "px";
-    } else if (ie_check != null) {
-      moon[0].style.top = "400px";
-    }
+    // if (ie_check == null && scrolltop <= 420) {
+      // moon[0].style.top = Math.floor(scrolltop * 1.85 - 280) + "px";
+    // } else if (ie_check != null) {
+      // moon[0].style.top = "400px";
+    // }
 
     // 헤더 타이틀 opacity
     if (scrolltop < section[0].offsetTop / 2) {
